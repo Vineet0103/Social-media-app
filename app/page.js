@@ -1,5 +1,7 @@
 import Card from "@/components/Card";
 import NavigationCard from "@/components/NavigationCard";
+import PostCard from "@/components/PostCard";
+import PostForm from "@/components/PostForm";
 
 export default function Home() {
   return (
@@ -8,8 +10,8 @@ export default function Home() {
     <NavigationCard/>
     </div>
    <div className = "grow">
-    <Card>form here</Card>
-    <Card>Posts</Card>
+    <PostForm/>
+    <PostCard/>
     </div>
    </div>
   );
