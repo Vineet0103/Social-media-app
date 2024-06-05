@@ -3,7 +3,7 @@ import Card from "./Card";
 
 export default function PostForm() {
     return (
-        <Card>
+        <Card noPadding={false}>
         <div className="flex gap-2">
         <div>
             <Avatar/>
