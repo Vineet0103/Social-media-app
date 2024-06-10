@@ -34,11 +34,9 @@ import Card from "@/components/Card";
 import Avatar from "@/components/Avatar";
 import PostCard from "@/components/PostCard";
 import FriendInfo from "@/components/FriendInfo";
-import { useRouter } from "next/router";
 import { usePathname } from 'next/navigation'
 
 export default function ProfilePage() {
-  const router = useRouter;
   const pathname = usePathname();
   const isPosts = pathname === '/profile/posts' || pathname === '/profile';
   const isAbout = pathname === '/profile/about';
