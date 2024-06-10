@@ -12,6 +12,7 @@
     "next": "14.2.3",
     "pages": "^0.0.16",
     "react": "^18",
+    "react-clickout-handler": "^1.2.1",
     "react-dom": "^18"
   },
   "devDependencies": {
